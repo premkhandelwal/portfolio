@@ -10,7 +10,7 @@ function App() {
   });
   return (
     <div className="App">
-      <Router history={history.basename}>
+      <Router history={history}>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects/:id" component={ProjectDetails} />
