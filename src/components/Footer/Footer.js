@@ -19,7 +19,7 @@ export default function Footer() {
           <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
         </a>
       </div>
-      <p className="footer-text">&copy; 2023 Your Company. All rights reserved.</p>
+      <p className="footer-text">2023 &copy; All rights reserved.</p>
     </footer>
   );
 }
