@@ -1,0 +1,28 @@
+.footer {
+    /* background-color: black; */
+    padding: 20px;
+    display: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-icon {
+    color: black;
+    font-size: 24px;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+
+    color: black;
+    margin-left: 10px;
+  }
+  

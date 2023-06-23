@@ -1,0 +1,126 @@
+.project-details {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.project-header {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.project-title {
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.title-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-logo {
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.project-content {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.content-section {
+  flex-basis: 50%;
+}
+
+.project-section {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.project-section-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project-section-title-titleName {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.project-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.project-section-content p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.project-section.black-background {
+  background-color: black;
+  color: white;
+}
+
+.project-section.white-background {
+  background-color: white;
+  color: black;
+}
+
+.technologies-list,
+.contributions-list,
+.project-link-section {
+  background-color: white;
+  color: black;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.technologies-list .project-section-title,
+.contributions-list .project-section-title,
+.project-link-section .project-section-title {
+  color: black;
+}
+
+.screenshots-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenshots-list img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.project-section-content ul {
+  list-style-position: inside;
+}
+
+.project-section-content ul li {
+  text-align: left;
+}
+.project-section-content ol {
+  list-style-position: inside;
+}
+
+.project-section-content ol li {
+  text-align: left;
+}

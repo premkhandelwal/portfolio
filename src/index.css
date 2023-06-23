@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Candara';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/candara.woff2') format('woff2'),
+       url('../fonts/candara.woff') format('woff'),
+       url('../fonts/candara.ttf') format('truetype');
+  /* Add additional font formats and paths if necessary */
+  /* Adjust the file paths based on your project structure */
+  /* You can also include font-weight and font-style properties if needed */
+}

@@ -1,0 +1,11 @@
+#section1{
+    background-color: black;
+    color: white;
+}
+
+.omoji{
+    height:250px;
+    margin-top: 20px;
+    /* position: absolute; or adjust positioning as per your layout */
+  /* transition: transform 0.3s ease; */
+}

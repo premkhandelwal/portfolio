@@ -1,0 +1,56 @@
+.work-samples {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; /* Add this line to center the items horizontally */
+}
+
+.work-sample {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 350px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.work-sample-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.work-sample h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.work-sample p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.work-sample-content {
+  display: flex;
+  height: 100%;
+  font-size: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-sample-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.work-sample-content p {
+  font-size: 1rem;
+  color: #777;
+}
