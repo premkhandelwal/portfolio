@@ -104,7 +104,7 @@ const WorkSample = () => {
       id: 4,
       title: 'Maths Is Fun',
       description: 'An interactive application involving interesting mathematics choices',
-      detailedDescription: 'An interactive application involving interesting mathematics choices. Tt is common for some students to experience a certain level of anxiety or fear when it comes to mathematics. Some studies suggest that math anxiety affects around 10-20% of students, while others indicate higher percentages. The aim of building this application is to remove the fear of mathematics from the student. We provide an interative way for the students to learn mathematics. We have provided the puzzle ranging from easy to moderate difficulty. This will be the entrypoint to the process of removal of fear. Application also consists of interactive way to calculate things from the app and learn formulae as well.',
+      detailedDescription: 'An interactive application involving interesting mathematics choices. It is common for some students to experience a certain level of anxiety or fear when it comes to mathematics. Some studies suggest that math anxiety affects around 10-20% of students, while others indicate higher percentages. The aim of building this application is to remove the fear of mathematics from the student. We provide an interative way for the students to learn mathematics. We have provided the puzzle ranging from easy to moderate difficulty. This will be the entrypoint to the process of removal of fear. Application also consists of interactive way to calculate things from the app and learn formulae as well.',
       imageUrl: Maths,
       technologies: ['Flutter', 'Visual Studio Code (IDE)'],
       screenshots: [Maths1, Maths2, Maths3],
