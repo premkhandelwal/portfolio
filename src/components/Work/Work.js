@@ -152,7 +152,7 @@ const WorkSample = () => {
       description: 'Mobile application to simplify Tender Management for Businesses',
       detailedDescription: 'Mobile application to simplify Tender Management for Businesses. A customer first adds a detailed description with photo, name, quantity, etc details of the item that he desires. The added item will be by deafult be visible to the users within the 10KM range. The vendors having the desired product would add their quotation will add their price for the product. The customer can see what were the quoted price from all the vendors and appropraitely close the deal. The application aims to ensure more transparency and reach for the customer and get the best deal possible',
       imageUrl: Tender,
-      technologies: ['Flutter', 'Firebase', 'MongoDB'],
+      technologies: ['Flutter', 'Figma', 'Firebase'],
       screenshots: [Tender1, Tender2, Tender3, Tender4],
       projectLink: "https://github.com/premkhandelwal/tender",
       contributions: [
