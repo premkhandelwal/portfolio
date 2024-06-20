@@ -10,7 +10,7 @@ import blockChainLogo from '../../assets/images/blockchain.png';
 export default function TechStack() {
     return (
         <>
-            <h2>Technologies which I have worked on:</h2>
+            <div className = "languagesTitle">Frameworks/Languages</div>
             <div className="card-container">
 
                 <TechCard list = {["Flutter","ReactJS", "AngularJS"]} logo = {flutterLogo} variant = "Frontend" text = "Developed more than 14 applications till date. Two of them on Play Store"/>

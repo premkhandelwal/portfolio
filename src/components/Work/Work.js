@@ -184,7 +184,7 @@ const WorkSample = () => {
   return (
     <section>
       
-      <h2 style={{"marginTop": "100px", "marginBottom": "50px"}}>Some of my recent work include:</h2>
+      <div className="workSamplesMainTitle">Some of my recent work include:</div>
       <div className="work-samples">
         {workSamples.map((sample) => (
           <div

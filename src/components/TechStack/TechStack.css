@@ -4,5 +4,41 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 20px;
+  
   justify-items: center;
+  color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.languagesTitle {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Adjust title font size for smaller screens */
+@media (max-width: 768px) {
+  .languagesTitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .languagesTitle {
+    font-size: 25px;
+  }
 }
