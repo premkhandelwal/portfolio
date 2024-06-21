@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.13477407.chunk.css",
+    "main.js": "/portfolio/static/js/main.0be53f83.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0be53f83.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5c5d8795.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5c5d8795.js.map",
+    "static/js/2.90e2b678.chunk.js": "/portfolio/static/js/2.90e2b678.chunk.js",
+    "static/js/2.90e2b678.chunk.js.map": "/portfolio/static/js/2.90e2b678.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.13477407.chunk.css.map": "/portfolio/static/css/main.13477407.chunk.css.map",
+    "static/js/2.90e2b678.chunk.js.LICENSE.txt": "/portfolio/static/js/2.90e2b678.chunk.js.LICENSE.txt",
+    "static/media/anugata1.a89709f6.png": "/portfolio/static/media/anugata1.a89709f6.png",
+    "static/media/anugata2.cd0cdadd.png": "/portfolio/static/media/anugata2.cd0cdadd.png",
+    "static/media/baysel1.482b6879.png": "/portfolio/static/media/baysel1.482b6879.png",
+    "static/media/baysel2.12c3bb39.png": "/portfolio/static/media/baysel2.12c3bb39.png",
+    "static/media/baysel3.ae9ad5c3.png": "/portfolio/static/media/baysel3.ae9ad5c3.png",
+    "static/media/baysel4.a2bb2707.png": "/portfolio/static/media/baysel4.a2bb2707.png",
+    "static/media/dating1.5d1f3f68.png": "/portfolio/static/media/dating1.5d1f3f68.png",
+    "static/media/dating2.a247789f.png": "/portfolio/static/media/dating2.a247789f.png",
+    "static/media/dating3.603f48c0.png": "/portfolio/static/media/dating3.603f48c0.png",
+    "static/media/dating4.f7708786.png": "/portfolio/static/media/dating4.f7708786.png",
+    "static/media/datingApp.589bf58d.png": "/portfolio/static/media/datingApp.589bf58d.png",
+    "static/media/iotchain.2da9f6bd.png": "/portfolio/static/media/iotchain.2da9f6bd.png",
+    "static/media/iotchain1.b7edbf67.png": "/portfolio/static/media/iotchain1.b7edbf67.png",
+    "static/media/iotchain2.bc18baed.png": "/portfolio/static/media/iotchain2.bc18baed.png",
+    "static/media/maths.23127134.png": "/portfolio/static/media/maths.23127134.png",
+    "static/media/maths1.6a46c2e6.png": "/portfolio/static/media/maths1.6a46c2e6.png",
+    "static/media/maths2.a458eefe.png": "/portfolio/static/media/maths2.a458eefe.png",
+    "static/media/maths3.51e321a2.png": "/portfolio/static/media/maths3.51e321a2.png",
+    "static/media/tender.d42020a5.png": "/portfolio/static/media/tender.d42020a5.png",
+    "static/media/tender1.24c434fa.png": "/portfolio/static/media/tender1.24c434fa.png",
+    "static/media/tender2.1404150a.png": "/portfolio/static/media/tender2.1404150a.png",
+    "static/media/tender3.c87eb6dc.png": "/portfolio/static/media/tender3.c87eb6dc.png",
+    "static/media/tender4.dd519a25.png": "/portfolio/static/media/tender4.dd519a25.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c5d8795.js",
+    "static/js/2.90e2b678.chunk.js",
+    "static/css/main.13477407.chunk.css",
+    "static/js/main.0be53f83.chunk.js"
+  ]
+}
