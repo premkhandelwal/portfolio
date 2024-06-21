@@ -5,7 +5,24 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-  justify-items: center; /* Add this line to center the items horizontally */
+  justify-items: center; /* Center the items horizontally */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .work-samples {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .work-samples {
+    grid-template-columns: 1fr;
+  }
+
+  .work-sample {
+    width: 100%;
+  }
 }
 
 .work-sample {
@@ -56,8 +73,21 @@
 }
 
 .workSamplesMainTitle {
-  margin-top:60px;
-  margin-bottom:20px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-weight: bold;
-  font-size:40px;
+  font-size: 40px;
+}
+
+/* Adjust title font size for smaller screens */
+@media (max-width: 768px) {
+  .workSamplesMainTitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .workSamplesMainTitle {
+    font-size: 25px;
+  }
 }
