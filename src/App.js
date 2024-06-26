@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home/Home';
-import { BrowserRouter as Router, Switch, Route,HashRouter } from 'react-router-dom';
+import { Switch, Route,HashRouter } from 'react-router-dom';
 import ProjectDetails from './components/Work/projects/ProjectDetails';
 require("dotenv").config();
 function App() {
