@@ -2,10 +2,23 @@ import React from 'react';
 import './ProjectDetails.css';
 import DOMPurify from 'dompurify';
 import { useLocation } from 'react-router-dom';
+import { workSamples } from '../workSamplesData';
+
 
 const ProjectDetails = () => {
   const location = useLocation();
-  const { title, description, technologies, screenshots, projectLink, contributions, features, type } = location.state;
+  const id = Number.parseInt(location.pathname.split('/')[2]) || location.state;
+  const workSample = workSamples.find(sample => sample.id === id);
+  const {
+    title,
+    detailedDescription: description,
+    screenshots,
+    technologies,
+    contributions,
+    features,
+    projectLink,
+    type,
+  } = workSample || {};
 
   const screenshotSize = type !== 'mobile' ? { width: '500px' } : { width: '200px',  };
 
