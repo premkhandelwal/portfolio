@@ -31,35 +31,75 @@ import empezyLogo from "../../assets/images/emp_ezy_logo.png";
 import ble1 from "../../assets/images/ble1.png";
 import ble2 from "../../assets/images/ble2.png";
 import ble3 from "../../assets/images/ble3.png";
-
+import usb1 from "../../assets/images/usb1.png";
+import usb2 from "../../assets/images/usb2.png";
+import usb3 from "../../assets/images/usb3.png";
+import testjig1 from "../../assets/images/testjig1.png";
 
 export const workSamples = [
   {
     id: 1,
-    title: "Webber BLE Mobile Application",
+    title: "Webber Connect",
     description: "A bluetooth based mobile application to view all the important parameters of the Battery Management System(BMS)",
     detailedDescription: `A bluetooth based mobile application to view all the important parameters of the Battery Management System(BMS). Keep track of all the important parameters like battery voltage, battery current, State of Charge(SOC). Also, application helps to gain insights into battery's health and performance, faults in the system and log the data for better debugging`,
     imageUrl: webberConnectLogo,
-    technologies: ['Flutter', 'C#', 'MSSQL', "Visual Studio Code (IDE)", "Visual Studio (IDE)", "SQL Server Management Studio"],
+    technologies: ['Flutter', "BLE(Bluetooth Low Energy)",  "Visual Studio Code (IDE)"],
     projectLink: "https://play.google.com/store/apps/details?id=com.webber.webber",
     screenshots: [ble1, ble2, ble3],
-    contributions: [],
-    features: [],
+    contributions: [
+      "Coordinated with the desginer team of Battery Management System to understand the structure of the data emitted by the BMS",
+      "Described a schema to map the original data from the BMS to the format usable in the application",
+      "Designed the UI to fit in all the parameters in a proper understandable manner",
+      "Desined a logging framework, to write the data to the external file"
+    ],
+    features: [
+      "Establishes communication with Bluetooth Low Energy(BLE) device",
+      "Connect and view data directly from the BMS, to gain major insights of the working of the battery",
+      "Log the data continously to the external file",
+      "View data in different evenly divided sections according to the use cases"
+    ],
     type: "mobile"
   },
   {
     id: 2,
     title: "Webber USB Mobile Application",
-    description: "Webber USB Mobile Application",
-    detailedDescription: "",
-    imageUrl: webberUsbLogo
+    description: "A Serial USB based mobile application to communicate and execute different actions on the Battery Management System(BMS)",
+    detailedDescription: "A Serial USB based mobile application to communicate and execute different actions on the Battery Management System(BMS). User according to the requirement can select any viable option from the dropdown and perform operations. Some of the important operations include updating the software of the battery, calibrating the current, controlling the ignition, restarting the BMS",
+    imageUrl: webberUsbLogo,
+    technologies: ['Flutter', "Flask", "NodeJS", "USB Serial",  "Visual Studio Code (IDE)"],
+    projectLink: "https://play.google.com/store/apps/details?id=com.webber.wec_usb",
+    screenshots: [usb1, usb2, usb3],
+    contributions: [
+      "Coordinated with the desginer team of Battery Management System to understand different important actions which can be performed",
+      "Designed the UI to display the realtime data from the Battery Management System",
+      "Implemented a user input mechanism, where he/she can select the preferrable option from the dropdown and perform operation"
+    ],
+    features: [
+      "Get an insight into present state of the Battery Management System",
+      "Select an options from a list of 10 and send it directly to the Battery Management System",
+      "Update the software of CAN programming tool directly from the file stored in the cloud"
+    ],
+    type: "mobile"
   },
   {
     id: 3,
     title: "Webber BMS Testjig Application",
-    description: "Webber USB Mobile Application",
-    detailedDescription: "",
-    imageUrl: bmstestjigLogo
+    description: "An automated testing tool to perform testing of all the aspects of the system within few minutes",
+    detailedDescription: "An automated testing tool to perform testing of all the aspects of the system within few minutes. User need to just connect to test setup. The automated system communicates with the Battery Management System and takes the account of the status of the aspects, which are to be tested. User is able to track the status on the UI, where the data is updated after knowing the status",
+    imageUrl: bmstestjigLogo,
+    technologies: ["C#", ".NET", "Microsoft's Serial Port Library", "Visual Studio"],
+    screenshots: [testjig1],
+    contributions: [
+      "Designed and developed the automated testing system within a week to satisfy the urgent requirement of the client",
+      "Coordinated with the testing team to understand the current testing process and noted down the scope of improvement with the automated test setup",
+      "Provided the tracking mechanism for each device to be tested, with the data stored in the cloud and export to PDFs",
+    ],
+    features: [
+      "An automated test is started when user connects the Battery Management System with the application",
+      "Automatic export of data to PDF which is ready to be despatched",
+      "Admins can keep track of the each device being tested with the separately configured admin panel",
+    ],
+    type: "desktop"
   },
   {
     id: 4,

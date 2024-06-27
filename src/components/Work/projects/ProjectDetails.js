@@ -81,10 +81,10 @@ const ProjectDetails = () => {
         </div>
       </div>
       <div className="project-section white-background project-link-section">
-        <h3 className="project-section-title">Project Link/Website</h3>
+        <h3 className="project-section-title">Project Links/Website</h3>
         <div className="project-section-content">
           <h5>
-            Project Link/Website: <a href={projectLink}>{projectLink}</a>
+            <a href={projectLink}>{projectLink}</a>
           </h5>
         </div>
       </div>

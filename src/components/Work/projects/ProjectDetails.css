@@ -93,7 +93,10 @@
 .technologies-list .project-section-title,
 .contributions-list .project-section-title,
 .project-link-section .project-section-title {
-  color: black;
+  color: white;
+  text-align: start;
+  display: flex;
+  margin-left: 30px;
 }
 
 .screenshots-list {
