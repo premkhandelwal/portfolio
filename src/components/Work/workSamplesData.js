@@ -6,35 +6,39 @@ import Baysel1 from "../../assets/images/baysel1.png";
 import Baysel2 from "../../assets/images/baysel2.png";
 import Baysel3 from "../../assets/images/baysel3.png";
 import Baysel4 from "../../assets/images/baysel4.png";
-import Dating from "../../assets/images/datingApp.png";
+import ble1 from "../../assets/images/ble1.png";
+import ble2 from "../../assets/images/ble2.png";
+import ble3 from "../../assets/images/ble3.png";
+import bmstestjigLogo from "../../assets/images/bmsTestJigLogo.png";
 import Dating1 from "../../assets/images/dating1.png";
 import Dating2 from "../../assets/images/dating2.png";
 import Dating3 from "../../assets/images/dating3.png";
 import Dating4 from "../../assets/images/dating4.png";
-import Tender1 from "../../assets/images/tender1.png";
-import Tender2 from "../../assets/images/tender2.png";
-import Tender3 from "../../assets/images/tender3.png";
-import Tender4 from "../../assets/images/tender4.png";
+import Dating from "../../assets/images/datingApp.png";
+import empezyLogo from "../../assets/images/emp_ezy_logo.png";
+import IOTChain from "../../assets/images/iotchain.png";
+import IOTChain1 from "../../assets/images/iotchain1.png";
+import IOTChain2 from "../../assets/images/iotchain2.png";
 import Maths from "../../assets/images/maths.png";
 import Maths1 from "../../assets/images/maths1.png";
 import Maths2 from "../../assets/images/maths2.png";
 import Maths3 from "../../assets/images/maths3.png";
-import IOTChain from "../../assets/images/iotchain.png";
-import IOTChain1 from "../../assets/images/iotchain1.png";
-import IOTChain2 from "../../assets/images/iotchain2.png";
 import Tender from "../../assets/images/tender.png";
-import webberConnectLogo from "../../assets/images/webberConnectLogo.png";
-import webberUsbLogo from "../../assets/images/webberUsbLogo.png";
-import bmstestjigLogo from "../../assets/images/bmsTestJigLogo.png";
-import webberMonitoringApp from "../../assets/images/webberDesktopApp.png";
-import empezyLogo from "../../assets/images/emp_ezy_logo.png";
-import ble1 from "../../assets/images/ble1.png";
-import ble2 from "../../assets/images/ble2.png";
-import ble3 from "../../assets/images/ble3.png";
+import Tender1 from "../../assets/images/tender1.png";
+import Tender2 from "../../assets/images/tender2.png";
+import Tender3 from "../../assets/images/tender3.png";
+import Tender4 from "../../assets/images/tender4.png";
+import testjig1 from "../../assets/images/testjig1.png";
+import testjig2 from "../../assets/images/testjig2.png";
+import testjig3 from "../../assets/images/testjig3.png";
 import usb1 from "../../assets/images/usb1.png";
 import usb2 from "../../assets/images/usb2.png";
 import usb3 from "../../assets/images/usb3.png";
-import testjig1 from "../../assets/images/testjig1.png";
+import webberConnectLogo from "../../assets/images/webberConnectLogo.png";
+import webberMonitoringLogo from "../../assets/images/webberDesktopApp.png";
+import webberMonitoringApp1 from "../../assets/images/webberDesktopApp2.png";
+import webberMonitoringApp2 from "../../assets/images/webberDesktopApp3.png";
+import webberUsbLogo from "../../assets/images/webberUsbLogo.png";
 
 export const workSamples = [
   {
@@ -43,7 +47,7 @@ export const workSamples = [
     description: "A bluetooth based mobile application to view all the important parameters of the Battery Management System(BMS)",
     detailedDescription: `A bluetooth based mobile application to view all the important parameters of the Battery Management System(BMS). Keep track of all the important parameters like battery voltage, battery current, State of Charge(SOC). Also, application helps to gain insights into battery's health and performance, faults in the system and log the data for better debugging`,
     imageUrl: webberConnectLogo,
-    technologies: ['Flutter', "BLE(Bluetooth Low Energy)",  "Visual Studio Code (IDE)"],
+    technologies: ['Flutter', "BLE(Bluetooth Low Energy)", "Visual Studio Code (IDE)"],
     projectLink: "https://play.google.com/store/apps/details?id=com.webber.webber",
     screenshots: [ble1, ble2, ble3],
     contributions: [
@@ -66,7 +70,7 @@ export const workSamples = [
     description: "A Serial USB based mobile application to communicate and execute different actions on the Battery Management System(BMS)",
     detailedDescription: "A Serial USB based mobile application to communicate and execute different actions on the Battery Management System(BMS). User according to the requirement can select any viable option from the dropdown and perform operations. Some of the important operations include updating the software of the battery, calibrating the current, controlling the ignition, restarting the BMS",
     imageUrl: webberUsbLogo,
-    technologies: ['Flutter', "Flask", "NodeJS", "USB Serial",  "Visual Studio Code (IDE)"],
+    technologies: ['Flutter', "Flask", "NodeJS", "USB Serial", "Visual Studio Code (IDE)"],
     projectLink: "https://play.google.com/store/apps/details?id=com.webber.wec_usb",
     screenshots: [usb1, usb2, usb3],
     contributions: [
@@ -88,7 +92,7 @@ export const workSamples = [
     detailedDescription: "An automated testing tool to perform testing of all the aspects of the system within few minutes. User need to just connect to test setup. The automated system communicates with the Battery Management System and takes the account of the status of the aspects, which are to be tested. User is able to track the status on the UI, where the data is updated after knowing the status",
     imageUrl: bmstestjigLogo,
     technologies: ["C#", ".NET", "Microsoft's Serial Port Library", "Visual Studio"],
-    screenshots: [testjig1],
+    screenshots: [testjig1, testjig2, testjig3],
     contributions: [
       "Designed and developed the automated testing system within a week to satisfy the urgent requirement of the client",
       "Coordinated with the testing team to understand the current testing process and noted down the scope of improvement with the automated test setup",
@@ -104,9 +108,16 @@ export const workSamples = [
   {
     id: 4,
     title: "Webber Monitoring Application",
-    description: "Webber USB Mobile Application",
-    detailedDescription: "",
-    imageUrl: webberMonitoringApp
+    description: "A .NET framework based desktop application to monitor the aspects of the battery",
+    detailedDescription: "A .NET framework based desktop application to monitor the aspects of the battery. This is a combo version of Webber Connect and Webber USB, but in the desktop environment. It allows user to monitor the battery parameters, along with communication with the device. It also allows user to change the configurable settings and log the data to the external file.",
+    imageUrl: webberMonitoringLogo,
+    technologies: [
+      "C#", ".NET", "Microsoft's Serial Port Library", "Visual Studio"
+    ],
+    screenshots: [
+      webberMonitoringApp1, 
+      webberMonitoringApp2
+    ]
   },
   {
     id: 5,
