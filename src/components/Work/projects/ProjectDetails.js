@@ -80,14 +80,17 @@ const ProjectDetails = () => {
           </ul>
         </div>
       </div>
-      <div className="project-section white-background project-link-section">
-        <h3 className="project-section-title">Project Links/Website</h3>
-        <div className="project-section-content">
-          <h5>
-            <a href={projectLink}>{projectLink}</a>
-          </h5>
+      {projectLink && (
+        <div className="project-section white-background project-link-section">
+          <h3 className="project-section-title">Project Links/Website</h3>
+          <div className="project-section-content">
+            <h5>
+              <a href={projectLink}>{projectLink}</a>
+            </h5>
+          </div>
         </div>
-      </div>
+      )}
+      
     </div>
   );
 };
