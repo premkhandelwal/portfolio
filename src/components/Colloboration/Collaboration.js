@@ -99,17 +99,17 @@ export default function CollaborationForm() {
         <h2 style={{"marginTop": "100px", "marginBottom": "50px"}}>Let's create experiences, inspire possibilities!</h2>
         <div className={`collaboration-container ${isLoading ? 'loading' : ''}`}>
           
-          <div className="left-column">
+          {/* <div className="left-column">
             <ul className="feature-list">
               <li className="feature">may it be a mobile app</li>
               <li className="feature">may it be a web app</li>
               <li className="feature">may it be any kind of app</li>
-              <li className="feature">or setting up the backend for your application</li>
+              <li className="feature">Every task will be delivered!!</li>
             </ul>
-          </div>
+          </div> */}
           {isLoading && <LoadingIndicator />}
           <div className="right-column">
-            <h2 className="sub-heading"> Start by entering your details</h2>
+            <h2 className="sub-heading"> Connect by entering your details</h2>
             <form className="collaboration-form" onSubmit={handleSubmit}>
               <div className="form-field">
                 <input
