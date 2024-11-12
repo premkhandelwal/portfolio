@@ -18,7 +18,7 @@ const Home = () => {
           hello, I'm Prem Khandelwal
         </div>
         <div className="subtitle">
-          Software Development Engineer | Full Stack Developer | Flutter, C#, MySQL, NodeJS
+          Software Development Engineer | Full Stack Developer | .NET, Flutter, MySQL, NodeJS
         </div>
        
         <br />

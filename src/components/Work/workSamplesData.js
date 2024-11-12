@@ -2,6 +2,10 @@ import AnugataLogo from "../../assets/images/anugata.png";
 import Anugata1 from "../../assets/images/anugata1.png";
 import Anugata2 from "../../assets/images/anugata2.png";
 import Anugata3 from "../../assets/images/anugata3.png";
+import ArihantLogo from "../../assets/images/arihantLogo.png"
+import Arihant1 from "../../assets/images/arihant1.png"
+import Arihant2 from "../../assets/images/arihant2.png"
+import Arihant3 from "../../assets/images/arihant3.png"
 import Baysel from "../../assets/images/baysel.png";
 import Baysel1 from "../../assets/images/baysel1.png";
 import Baysel2 from "../../assets/images/baysel2.png";
@@ -50,6 +54,28 @@ import fff3 from "../../assets/images/fff3.png";
 export const workSamples = [
   {
     id: 1,
+    title: "Arihant CRM",
+    description: "A comprehensive CRM system for better customer interaction and management of data",
+    detailedDescription: `Arihant CRM is a versatile customer relationship management system designed to streamline the process of handling leads, managing customer interactions, and automating workflows. The system supports sales teams by offering features like lead tracking, pipeline management, and customer insights, improving overall efficiency and enhancing customer engagement. Arihant CRM is crafted to cater to businesses aiming to centralize their customer information and automate essential business processes.`,
+    imageUrl: ArihantLogo,
+    technologies: ["Angular", ".NET Core", "Entity Framework Core", "MySQL", "Bootstrap"],
+    projectLink: "https://crm.arihantatf.com/",
+    screenshots: [Arihant1, Arihant2, Arihant3],
+    contributions: [
+      "Developed the frontend using Angular and Bootstrap for a responsive and user-friendly interface.",
+      "Implemented backend services in ASP.NET Core for handling lead and customer data management.",
+      "Integrated a role-based access control system to ensure data security.",
+      "Built automated workflows for lead nurturing and follow-ups, reducing manual tasks."
+    ],
+    features: [
+      "Automate follow-up actions and customer interactions through custom workflows.",
+      "Role-based access to control visibility of sensitive information across departments.",
+      "Visualize sales pipeline and performance through interactive and easy to use user interface."
+    ],
+    type: "web"
+  },  
+  {
+    id: 2,
     title: "Webber Connect",
     description: "A bluetooth based mobile application to view all the important parameters of the Battery Management System(BMS).",
     detailedDescription: `A bluetooth based mobile application to view all the important parameters of the Battery Management System(BMS). Keep track of all the important parameters like battery voltage, battery current, State of Charge(SOC). Also, application helps to gain insights into battery's health and performance, faults in the system and log the data for better debugging.`,
@@ -74,7 +100,7 @@ export const workSamples = [
   
   
   {
-    id: 2,
+    id: 3,
     title: 'Anugata NXG',
     description: 'An accounting & billing software',
     detailedDescription: `An accounting & billing software. Allows you to track and manage your business related data on the go. Add any master entry such as <b>Ledger</b>, <b>Item</b>, <b>Voucher</b>, <b>Group</b> and many more. Visualize your data in the form of dashboards and reports. Add transactional entries involving data related to <b>Sales</b>, <b>Purchase</b>, <b>Receipt</b>, <b>Payment</b>. Share invoices and other stuffs with your clients as well.`,
@@ -100,7 +126,7 @@ export const workSamples = [
   
   
   {
-    id: 3,
+    id: 4,
     title: 'Baysel',
     description: 'Platform for customers to connect with vendors and explore a variety of goods.',
     detailedDescription: "Platform for customers to connect with vendors and explore a variety of goods. The vendors targetted are mostly the hawkers who tirelessly roam the street while pushing their luck with the goods they have. The application was built with an intention in order to help the vendors meet their potential customers by eliminating their excess roaming. Vendors add the goods they have to sell by using the interface. Customers can search for the goods/services they are looking for. Nearby vendors providing the services or goods are shown on the map. Customers can book the vendor for the service they want. Vendor can then decide whether going in that area will be beneficial to him or not.",
@@ -124,7 +150,7 @@ export const workSamples = [
 
   },
   {
-    id: 4,
+    id: 5,
     title: 'Dating App',
     description: 'Discover, Connect, and Date with Ease',
     detailedDescription: 'Discover, Connect, and Date with Ease. The application allows you to effortlessly discover potential matches who share your interests, values, and goals. Also, you can connect with others with the help of in-app messaging system.',
@@ -148,7 +174,7 @@ export const workSamples = [
 
   },
   {
-    id: 5,
+    id: 6,
     title: 'Maths Is Fun',
     description: 'An interactive application involving interesting mathematics choices',
     detailedDescription: 'An interactive application involving interesting mathematics choices. The application helps to remove the fear of mathematics from the students. It includes puzzles ranging from easy to moderate difficulty. The application provides a way to learn mathematical equations and formulae in a fun manner',
@@ -171,7 +197,7 @@ export const workSamples = [
 
   },
   {
-    id: 6,
+    id: 7,
     title: "Webber USB Mobile Application",
     description: "A Serial USB based mobile application to communicate and execute different actions on the Battery Management System(BMS)",
     detailedDescription: "A Serial USB based mobile application to communicate and execute different actions on the Battery Management System(BMS). User according to the requirement can select any viable option from the dropdown and perform operations. Some of the important operations include updating the software of the battery, calibrating the current, controlling the ignition, restarting the BMS.",
@@ -192,7 +218,7 @@ export const workSamples = [
     type: "mobile"
   },
   {
-    id: 7,
+    id: 8,
     title: 'IOTChain',
     description: 'A Web3 project to ensure the integrity of IoT Devices',
     detailedDescription: 'A Web3 project to ensure the integrity of IoT Devices. The application was built with an aim to ensure the IOT Data Integrity with the help of Blockchain. Chainlink, a decentralized oracle network, was used for the purpose of accessing the IOT Data. The hash value of the IOT Data is calculated using the SHA-256 algorithm. The conceived hash value is passed to API which is accessed by a ChainLink job. The data from the blockchain and the original one os displayed on the frontend for the user to match and see if the data integrity was acheived.',
@@ -215,7 +241,7 @@ export const workSamples = [
 
   },
   {
-    id: 8,
+    id: 9,
     title: 'Tender',
     description: 'Mobile application to simplify Tender Management for Businesses',
     detailedDescription: 'Mobile application to simplify Tender Management for Businesses. A customer first adds a detailed description with photo, name, quantity, etc details of the item that he desires. The added item will be by deafult be visible to the users within the 10KM range. The vendors having the desired product would add their quotation will add their price for the product. The customer can see what were the quoted price from all the vendors and appropraitely close the deal. The application aims to ensure more transparency and reach for the customer and get the best deal possible.',
@@ -237,7 +263,7 @@ export const workSamples = [
 
   },
   {
-    id: 9,
+    id: 10,
     title: "Emp Ezy",
     description: "A mobile based checklist app to mark and track the status of the tasks in the organization on a per day basis.",
     detailedDescription: "A mobile based checklist app to mark and track the status of the tasks in the organization on a per day basis. The checklist has a pre-defined list of task, which are to be completed by a certain employee. The applications also enables task tracking, accountability, and operational efficiency by providing a comprehensive, user-friendly platform for managing daily activities within a organization.",
@@ -259,7 +285,7 @@ export const workSamples = [
     type: "mobile"
   },
   {
-    id: 10,
+    id: 11,
     title: "Fresh from Factory",
     description: "A mobile based e-commerce application to order fresh fruits and vegetables online",
     detailedDescription: "A mobile based e-commerce application to order fresh fruits and vegetables online. The application facilitates to select from a wide range of categories and order every kind of fruit or vegetable within few minutes. The application also provides various offers and deals on different products to gain customer trust.",
@@ -281,7 +307,7 @@ export const workSamples = [
     type: "mobile"
   },
   {
-    id: 11,
+    id: 12,
     title: "Webber BMS Testjig Application",
     description: "An automated testing tool to perform testing of all the aspects of the system within few minutes.",
     detailedDescription: "An automated testing tool to perform testing of all the aspects of the system within few minutes. User need to just connect to test setup. The automated system communicates with the Battery Management System and takes the account of the status of the aspects, which are to be tested. User is able to track the status on the UI, where the data is updated after knowing the status.",
@@ -301,7 +327,7 @@ export const workSamples = [
     type: "desktop"
   },
   {
-    id: 12,
+    id: 13,
     title: "Webber Monitoring Application",
     description: "A .NET framework based desktop application to monitor the aspects of the battery",
     detailedDescription: "A .NET framework based desktop application to monitor the aspects of the battery. This is a combo version of Webber Connect and Webber USB, but in the desktop environment. It allows user to monitor the battery parameters, along with communication with the device. It also allows user to change the configurable settings and log the data to the external file.",
